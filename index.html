@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Optimize</title>
+</head>
+<body>
+    <style>
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            color: #fff;
+        }
+
+        .section--secondary {
+            background-color: blue;
+        }
+
+        .section--tertiary {
+            background-color: green;
+        }
+    </style>
+    <header>
+        <a href="/">
+            Lucas Marques
+        </a>
+
+        <nav>
+            <a href="#a">A</a>
+            <a href="#b">B</a>
+            <a href="#c">C</a>
+        </nav>
+    </header>
+
+    <div>
+        <section class="section">
+            <button class="section__btn">A</button>
+        </section>
+        <section class="section section--secondary">
+            <button class="section__btn">B</button>
+        </section>
+        <section class="section section--tertiary">
+            <button class="section__btn">C</button>
+        </section>
+    </div>
+</body>
+</html>
